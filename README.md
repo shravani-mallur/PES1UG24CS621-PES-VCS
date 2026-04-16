@@ -1,10 +1,17 @@
-# Building PES-VCS — A Version Control System from Scratch
+# PES-VCS Implementation
+
+**Name:** Shravani Mallur  
+**SRN:** PES1UG24CS621  
+**Course:** Operating Systems Lab  # Building PES-VCS — A Version Control System from Scratch
+
+---
 
 **Objective:** Build a local version control system that tracks file changes, stores snapshots efficiently, and supports commit history. Every component maps directly to operating system and filesystem concepts.
 
 **Platform:** Ubuntu 22.04
 
 ---
+
 
 ## Getting Started
 

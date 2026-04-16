@@ -382,8 +382,15 @@ The test program verifies:
 - Integrity checking (detects corrupted objects)
 
 **📸 Screenshot 1A:** Output of `./test_objects` showing all tests passing.
+<img width="1223" height="191" alt="Screenshot from 2026-04-16 11-08-37" src="https://github.com/user-attachments/assets/2e3a23d9-c0ae-423c-ab6d-3483066f063a" />
+
+
 
 **📸 Screenshot 1B:** `find .pes/objects -type f` showing the sharded directory structure.
+
+<img width="894" height="362" alt="Screenshot from 2026-04-16 06-26-17" src="https://github.com/user-attachments/assets/a4461991-bb52-41ce-a805-3f1fd6f42a9a" />
+
+
 
 ---
 
@@ -415,7 +422,13 @@ The test program verifies:
 
 **📸 Screenshot 2A:** Output of `./test_tree` showing all tests passing.
 
+<img width="869" height="162" alt="Screenshot from 2026-04-16 10-38-28" src="https://github.com/user-attachments/assets/784197ad-b1ee-4716-a6ee-14306cc8a17f" />
+
+
 **📸 Screenshot 2B:** Pick a tree object from `find .pes/objects -type f` and run `xxd .pes/objects/XX/YYY... | head -20` to show the raw binary format.
+
+<img width="1280" height="239" alt="Screenshot from 2026-04-16 10-55-20" src="https://github.com/user-attachments/assets/229c3be7-95e5-42ef-8441-5f8e6b37e031" />
+
 
 ---
 
@@ -473,7 +486,12 @@ cat .pes/index    # Human-readable text format
 
 **📸 Screenshot 3A:** Run `./pes init`, `./pes add file1.txt file2.txt`, `./pes status` — show the output.
 
+<img width="904" height="215" alt="Screenshot from 2026-04-16 10-51-51" src="https://github.com/user-attachments/assets/0134459a-348b-46e2-88f6-ee23418b0114" />
+
+
 **📸 Screenshot 3B:** `cat .pes/index` showing the text-format index with your entries.
+
+<img width="1116" height="109" alt="Screenshot from 2026-04-16 10-52-40" src="https://github.com/user-attachments/assets/323440ef-efda-48d2-9f2d-eafaa912aadd" />
 
 ---
 
@@ -524,9 +542,19 @@ make test-integration
 
 **📸 Screenshot 4A:** Output of `./pes log` showing three commits with hashes, authors, timestamps, and messages.
 
+<img width="1280" height="420" alt="Screenshot from 2026-04-16 11-00-03" src="https://github.com/user-attachments/assets/1bda5713-4974-40cb-a4c9-532ff85c7ad2" />
+
+
+
 **📸 Screenshot 4B:** `find .pes -type f | sort` showing object store growth after three commits.
 
+<img width="1280" height="254" alt="Screenshot from 2026-04-16 10-59-20" src="https://github.com/user-attachments/assets/bdce5bff-d5d5-46f0-8728-be12a65bcc48" />
+
+
 **📸 Screenshot 4C:** `cat .pes/refs/heads/main` and `cat .pes/HEAD` showing the reference chain.
+
+
+<img width="1280" height="92" alt="Screenshot from 2026-04-16 10-59-44" src="https://github.com/user-attachments/assets/59a4679e-844f-4193-ac99-15dd6fda0368" />
 
 ---
 

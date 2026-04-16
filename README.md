@@ -2,7 +2,7 @@
 
 **Name:** Shravani Mallur  
 **SRN:** PES1UG24CS621  
-**Course:** Operating Systems Lab  # Building PES-VCS — A Version Control System from Scratch
+**Course:** Operating Systems Lab 
 
 ---
 

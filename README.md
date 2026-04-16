@@ -388,7 +388,9 @@ The test program verifies:
 
 **📸 Screenshot 1B:** `find .pes/objects -type f` showing the sharded directory structure.
 
-<img width="894" height="362" alt="Screenshot from 2026-04-16 06-26-17" src="https://github.com/user-attachments/assets/a4461991-bb52-41ce-a805-3f1fd6f42a9a" />
+
+<img width="824" height="335" alt="Screenshot from 2026-04-16 10-27-55" src="https://github.com/user-attachments/assets/e96d75b9-8047-4c77-9919-278597fdf785" />
+
 
 
 
